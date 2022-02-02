@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Gravity</title>
+  <link rel="preload" href="fonts/FiraSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container flex header__container">
+    <div class="menu">
+      <button class="menu__close btn--reset" type="button" aria-label="close menu">
+        <span class="menu__close-line"></span>
+        <span class="menu__close-line"></span>
+      </button>
+      <nav class="menu__nav">
+        <ul class="menu__list flex">
+          <li class="menu__item"><a href="#" class="menu__link">About Us</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Our Works</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Testimonials</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Our Clients</a></li>
+        </ul>
+      </nav>
+    </div>
+    <a class="header__logo logo">Gravity</a>
+    <form class="header__search search" action="/">
+      <input class="input" type="text">
+      <svg viewBox="0 0 900 100" class="magnifying-glass">
+        <path class="magnifying-glass-path"
+          d="m 59.123035,59.123035 c -10.561361,10.56136 -27.684709,10.56136 -38.24607,0 -10.56136,-10.561361 -10.56136,-27.684709 0,-38.24607 10.561361,-10.56136 27.684709,-10.56136 38.24607,0 10.56136,10.561361 10.56136,27.684709 0,38.24607 l 28.876965,28.876965 c 6.304625,7.101523 5.754679,-0.187815 13.07143,-0.5 h 582.04101" />
+        <path class="x"
+          d="m 673.46803,25.714286 -37.17876,38.816532 c 0,0 -5.08857,5.60515 -5.68529,11.841734 -1.06622,11.143538 13.02902,11.127448 13.02902,11.127448" />
+        <path class="x"
+          d="m 635.08021,25.714286 37.17876,38.816532 c 0,0 5.08857,5.60515 5.68529,11.841734 1.06622,11.143538 -13.02902,11.127448 -13.02902,11.127448" />
+      </svg>
+      <div class="overlay overlay-1"></div>
+      <div class="overlay overlay-2"></div>
+    </form>
+    <button class="header__burger burger btn--reset" aria-label="open menu">
+      <span class="burger__line"></span>
+      <span class="burger__line"></span>
+    </button>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero">
+  <div class="container flex hero__container">
+    <section class="hero__get-started">
+      <h1 class="hero__title">Work around you and your team</h1>
+      <p class="hero__descr">From ads that dance or sing to MTV-like commercials, online advertisers are now
+        using a new type of technology «rich media» to attract consumers.</p>
+      <button class="hero__btn btn--reset btn">Get started</button>
+    </section>
+    <div class="hero__placeholder-bg">
+    </div>
+    <section class="hero__video">
+      <div class="loader flex">
+        <span class="loader__page loader__page_prev">01</span>
+        <div class="loader__wrapper">
+          <span class="loader__line_selected"></span>
+          <span class="loader__line"></span>
+        </div>
+        <span class="loader__page loader__page_next">03</span>
+      </div>
+      <div class="swiper-loader">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide main-slider__media">
+
+            <video src="/videos/Purpleyellow.mp4" muted playsinline></video>
+            <button class="swiper-loader__btn playBtn btn--reset">
+              <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+              </svg>
+            </button>
+
+          </div>
+          <div class="swiper-slide main-slider__media">
+
+            <video src="/videos/Rivermountains.mp4" muted playsinline></video>
+            <button class="swiper-loader__btn playBtn btn--reset">
+              <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+              </svg>
+            </button>
+
+          </div>
+          <div class="swiper-slide main-slider__media">
+
+            <video src="/videos/Stop.mp4" muted playsinline></video>
+            <button class="swiper-loader__btn playBtn btn--reset">
+              <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+              </svg>
+            </button>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+      <section class="about">
+  <div class="container flex about__container">
+    <img class="about__about-img" src="./img/about-img.jpg" alt="картинка">
+    <section class="about__descr">
+      <h2 class="about__caption caption">
+        We solve digital problems with an outstanding creative flare
+      </h2>
+      <p class="about__text">
+        The best time to view the moon, obviously, is at night when there are few clouds and the weather is
+        accommodating for a long and lasting study.
+      </p>
+      <p class="about__text">
+        For most of us, the idea of astronomy is something we directly connect to «stargazing», telescopes and seeing
+        magnificent displays in the heavens.
+      </p>
+      <div class="about__user flex">
+        <img src="./img/avatar.jpg" alt="фото" class="about__avatar">
+        <div class="about__wrap">
+          <h4 class="about__name">Denis Shepovalov</h4>
+          <p class="about__expert">Co-Founder & CEO</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+      <section class="services">
+  <div class="container services__container">
+    <div class="tag">— Services</div>
+    <div class="services__band flex">
+      <h2 class="services__title caption">We love work hard and explore new things that’s why we cover lot of things.
+        Check our service list and view details</h2>
+      <nav class="sub-nav">
+        <ul class="sub-nav__list flex">
+          <li class="sub-nav__item">
+            <a href="#" class="sub-nav__link">Multimedia</a>
+          </li>
+          <li class="sub-nav__item">
+            <a href="#" class="sub-nav__link">Interactive design</a>
+          </li>
+          <li class="sub-nav__item">
+            <a href="#" class="sub-nav__link">Packaging</a>
+          </li>
+          <li class="sub-nav__item">
+            <a href="#" class="sub-nav__link">Branding</a>
+          </li>
+          <li class="sub-nav__item">
+            <a href="#" class="sub-nav__link">Creative Strategy</a>
+          </li>
+          <li class="sub-nav__item">
+            <a href="#" class="sub-nav__link">UI/UX</a>
+          </li>
+          <li class="sub-nav__item">
+            <a href="#" class="sub-nav__link">Coding</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <section class="services-videos services-videos__container">
+      <div class="flex swiper-container swiper-container__services">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-1">
+
+            <button class="swiper-loader__btn btn--reset">
+              <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="swiper-slide slide-2">
+
+            <button class="swiper-loader__btn btn--reset">
+              <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="swiper-slide slide-3">
+
+            <button class="swiper-loader__btn btn--reset">
+              <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+              </svg>
+            </button>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section>
+    <div class="swiper-button-prev services__btn-prev"></div>
+    <div class="swiper-button-next services__btn-next"></div>
+  </div>
+</section>
+
+      <section class="features">
+    <img class="features__background" src="../img/features-background.jpg" alt="картинка">
+    <div class="container flex features__container">
+      <div class="features__foto">
+        <img src="./img/2features-img.jpg" alt="красота" class="features__img">
+      </div>
+      <div class="features__text-side">
+        <h2 class="features__title caption">Well thought with super easy to use</h2>
+        <p class="features__text">As we approached the palace I could see through the great windows of the first floor the
+          brilliantly illuminated audience chamber of Than Kosis. The immense hall was crowded with nobles and their women.
+        </p>
+        <article class="options">
+          <ul class="options__list">
+            <li class="options__items options__items_hundread">Ultimate result</li>
+            <li class="options__items options__items_bag ">Minimal design</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+</section>
+
+      <section class="works">
+  <div class="container works__container">
+    <div class="tag">— Our works</div>
+    <div class="works__heading flex">
+      <h2 class="works__title caption">Discover our Work</h2>
+      <nav class="works__nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">All</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Branding</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Web</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Development</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Films</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <ul class="gallery gallery__list flex">
+      <li class="gallery__item">
+        <img src="./img/number1.png" alt="фото1" class="gallery__image">
+        <button class="gallery__btn playBtn btn--reset">
+          <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+          </svg>
+        </button>
+      </li>
+      <li class="gallery__item">
+        <img src="./img/number2.png" alt="фото2" class="gallery__image">
+        <button class="gallery__btn playBtn btn--reset">
+          <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+          </svg>
+        </button>
+      </li>
+      <li class="gallery__item">
+        <button class="gallery__btn playBtn btn--reset">
+          <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+          </svg>
+        </button>
+        <img src="./img/number3.png" alt="фото3" class="gallery__image">
+      </li>
+      <li class="gallery__item">
+        <button class="gallery__btn playBtn btn--reset">
+          <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+          </svg>
+        </button>
+        <img src="./img/number4.png" alt="фото4" class="gallery__image">
+      </li>
+      <li class="gallery__item">
+        <button class="gallery__btn playBtn btn--reset">
+          <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+          </svg>
+        </button>
+        <img src="./img/number5.png" alt="фото5" class="gallery__image">
+      </li>
+      <li class="gallery__item">
+        <button class="gallery__btn playBtn btn--reset">
+          <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.697 8.84848L0.924232 17.3775L0.924232 0.319446L15.697 8.84848Z" />
+          </svg>
+        </button>
+        <img src="./img/number6.png" alt="фото6" class="gallery__image">
+      </li>
+    </ul>
+    <div class="our-works flex">
+      <p class="our-works__txt">It picks up the words on the page and displays ads that are similar to those words. Then
+        when someone either performs an action or clicks on your page you will get paid.</p>
+      <button class="our-works__btn btn btn--reset">See our works</button>
+    </div>
+  </div>
+</section>
+
+      <section class="testimonials">
+  <div class="container testimonials__container">
+    <div class="testimonials-swiper">
+      <div class="swiper-wrapper">
+        <div class="testimonials__wrapper flex swiper-slide">
+          <div class="testimonials__description flex">
+            <div class="testimonials__tag tag">— Testimonials</div>
+            <h2 class="testimonials__title caption">«Professionals in their craft! All products were super great with
+              strong
+              attention to details, and overall vibe»</h2>
+            <p class="testimonials__personality">Polina Kuzina</p>
+            <p class="testimonials__spec">Manager at Craftwork</p>
+          </div>
+          <div class="testimonials__avatar-1">
+          </div>
+        </div>
+        <div class="testimonials__wrapper flex swiper-slide">
+          <div class="testimonials__description flex">
+            <div class="testimonials__tag tag">— Testimonials</div>
+            <h2 class="testimonials__title caption">«Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+              corrupti dolores.»</h2>
+            <p class="testimonials__personality">Name Surname</p>
+            <p class="testimonials__spec">Manager at Craftwork</p>
+          </div>
+          <div class="testimonials__avatar-2">
+          </div>
+        </div>
+        <div class="testimonials__wrapper flex swiper-slide">
+          <div class="testimonials__description flex">
+            <div class="testimonials__tag tag">— Testimonials</div>
+            <h2 class="testimonials__title caption">«Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero
+              labore quod asperiores atque. Quis.»</h2>
+            <p class="testimonials__personality">Name Surname</p>
+            <p class="testimonials__spec">Manager at Craftwork</p>
+          </div>
+          <div class="testimonials__avatar-3">
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-button-prev testimonials__btn-prev"></div>
+      <div class="swiper-button-next testimonials__btn-next"></div>
+    </div>
+  </div>
+</section>
+
+      <section class="clients">
+  <div class="container clients__container">
+    <div class="clients__wrapper flex">
+      <h2 class="clients__title caption">Our Clients</h2>
+      <div class="clients__worked">
+        <p class="clients__cap tag">— We worked with</p>
+        <p class="clients__txt">Our favorite brands are our friends! We help them to achieve their goals, they
+          help us to stay sharp.</p>
+      </div>
+    </div>
+    <div class="clients-swiper">
+      <div class="swiper-wrapper flex">
+        <div class="swiper-slide xiaomi"></div>
+        <div class="swiper-slide tinder"></div>
+        <div class="swiper-slide apple"></div>
+        <div class="swiper-slide nike"></div>
+        <div class="swiper-slide amd"></div>
+        <div class="swiper-slide xiaomi"></div>
+        <div class="swiper-slide tinder"></div>
+        <div class="swiper-slide apple"></div>
+        <div class="swiper-slide nike"></div>
+        <div class="swiper-slide amd"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <div class="footer__top flex">
+      <svg class="footer__svg" width="75" height="24" viewBox="0 0 75 24" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M9 0C3.648 0 0 3.648 0 9C0 14.256 3.72 17.856 9 17.856C11.376 17.856 13.752 17.376 16.008 16.176V7.488H9.504V10.224H12.984V14.232C11.784 14.904 10.296 15.12 9.024 15.12C5.376 15.12 3.168 12.312 3.168 8.808C3.168 5.424 5.52 2.736 9 2.736C10.584 2.736 12.288 3.288 13.44 4.392L15.672 2.136C13.872 0.503999 11.352 0 9 0Z"
+          fill="white" />
+        <path
+          d="M24.6637 5.616C23.1517 5.616 21.8797 6.408 21.2557 7.728H21.2077V5.904H18.3277V17.424H21.2077V11.424C21.2077 9.888 22.1197 8.352 24.3037 8.352C24.7357 8.352 25.1437 8.424 25.6957 8.568V5.784C25.3117 5.688 25.0957 5.616 24.6637 5.616Z"
+          fill="white" />
+        <path
+          d="M31.5278 5.616C29.2718 5.616 27.6638 6.408 26.6318 7.464L28.1438 8.976C28.9358 8.256 30.0158 7.776 31.2158 7.776C32.7998 7.776 33.8558 8.568 33.8558 9.912V10.248H32.9678C28.0238 10.248 25.8878 11.592 25.8878 14.256C25.8878 16.368 27.7118 17.712 30.0878 17.712C31.6238 17.712 32.9678 17.136 33.7838 15.84H33.8558V17.424H36.4478V10.536C36.4478 7.824 35.4638 5.616 31.5278 5.616ZM28.7678 14.04C28.7678 12.816 30.3038 12.264 32.8478 12.264H33.6878V12.984C33.6878 14.448 32.7758 15.552 30.8078 15.552C29.7278 15.552 28.7678 15.024 28.7678 14.04Z"
+          fill="white" />
+        <path
+          d="M36.9864 5.904L41.6904 17.424H44.7624L49.2984 5.904H46.3464L43.2504 13.968H43.2024L40.1304 5.904H36.9864Z"
+          fill="white" />
+        <path
+          d="M51.4557 0.263999C50.4237 0.263999 49.6317 1.056 49.6317 1.992C49.6317 2.928 50.4237 3.72 51.4557 3.72C52.4878 3.72 53.3278 3.024 53.3278 1.992C53.3278 1.008 52.5117 0.263999 51.4557 0.263999ZM50.0397 5.904V17.424H52.9198V5.904H50.0397Z"
+          fill="white" />
+        <path
+          d="M56.2581 2.568V5.904H53.8821V8.352H56.2581V13.752C56.2581 16.656 57.3141 17.712 60.0261 17.712C60.6741 17.712 61.7541 17.592 62.3061 17.328V14.904C62.0661 15.096 61.4661 15.264 60.7461 15.264C59.6181 15.264 59.1381 14.688 59.1381 13.464V8.352H62.3061V5.904H59.1381V2.568H56.2581Z"
+          fill="white" />
+        <path
+          d="M61.9942 5.904L66.9142 17.52L66.4102 18.768C65.8822 20.04 65.5943 20.592 64.0823 20.592C63.5783 20.592 63.0742 20.472 62.6182 20.304L62.2582 22.896C62.9782 23.088 63.7222 23.184 64.4662 23.184C67.3462 23.184 68.1143 21.768 69.0502 19.392L74.3063 5.904H71.3063L68.4262 13.896H68.3783L65.1622 5.904H61.9942Z"
+          fill="white" />
+      </svg>
+      <nav class="footer__nav">
+        <ul class="footer__menu flex">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Travel</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Explore</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Works</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">About Us</a>
+          </li>
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <form class="footer__mail flex" action="#" name="new mail" method="post">
+        <input type="email" name="email" class="footer__mail-add" placeholder="Your email">
+        <button class="footer__btn-send btn--reset">Send</button>
+      </form>
+    </div>
+    <div class="footer__bottom flex">
+      <nav class="footer__subnav">
+        <div class="footer__sub submenu">
+          <ul class="submenu__list">
+            <li class="submenu__item"><a href="#" class="submenu__link">Terms</a></li>
+            <li class="submenu__item"><a href="#" class="submenu__link">Promo</a></li>
+            <li class="submenu__item"><a href="#" class="submenu__link">Download</a></li>
+            <li class="submenu__item"><a href="#" class="submenu__link">News</a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="footer__social social">
+        <li class="social__item">
+          <a href="https://twitter.com/ " class="social__link social__link--tw" target="_blank"
+            aria-label="Go to twit"></a>
+        </li>
+        <li class="social__item">
+          <a href="https://ru.linkedin.com/" class="social__link social__link--in" target="_blank"
+            aria-label="Go to linked"></a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.google.ru
+					" class="social__link social__link--gl" target="_blank" aria-label="Go to googl"></a>
+        </li>
+        <li class="social__item">
+          <a href="https://www.facebook.com/" class="social__link social__link--fb" target="_blank"
+            aria-label="Go to faceb"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+</body>
+
+</html>
