@@ -1,0 +1,97 @@
+.testimonials {
+  margin-bottom: 143px;
+
+  &__wrapper {
+    justify-content: space-between;
+  }
+
+  &__description {
+    max-width: 49.09%;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+
+  &__tag {
+    margin-bottom: 73px;
+  }
+
+  &__title {
+    margin-bottom: 121px;
+  }
+
+  &__personality {
+    font-style: 22px;
+    font-weight: 500;
+    margin-bottom: 13px;
+  }
+
+  &__spec {
+    margin-bottom: 132px;
+  }
+
+  &__avatar-1 {
+    width: 40.4%;
+    background-image: url("../img/selffoto-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__avatar-2 {
+    width: 40.4%;
+    background-image: url("../img/selffoto-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__avatar-3 {
+    width: 40.4%;
+    background-image: url("../img/selffoto-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__btn-prev {
+    margin-right: 21px;
+  }
+
+  &__btn-next,
+  &__btn-prev {
+    width: 50px;
+    height: 50px;
+    left: 0;
+    right: 0;
+    position: relative;
+    display: inline-block;
+    top: 100%;
+    bottom: 25px;
+    background-color: var(--color-smoke);
+    transition: .4s;
+
+    &:hover {
+      background-color: var(--color-red);
+      transition: .4s;
+    }
+
+    &:active {
+      background-color: var(--color-red);
+      opacity: 0.21;
+      transition: .4s;
+    }
+
+  }
+
+  &__btn-next:after,
+  &__btn-prev:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--color-white);
+    font-size: 16px;
+
+  }
+}
